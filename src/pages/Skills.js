@@ -24,7 +24,7 @@ const Skills = () => {
           skills.map((skill,i)=><div key={i} className='h-16 rotate-once w-16 md:h-28 md:w-28 hover:bg-[rgb(0,0,0,0.6)] relative  rounded-full border-2 border-sky-400'>
              <div className='absolute top-1/2 -translate-y-1/2 flex flex-col items-center justify-center'>
               <img alt="" src={`./IMG/${skill.img}`} className="w-1/2 md:w-1/3" />
-              <p className='text-white hidden md:block'>{skill.name}</p>
+              <p className='text-white hidden md:block cursor-default'>{skill.name}</p>
 
              </div>
              

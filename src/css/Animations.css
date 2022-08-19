@@ -66,3 +66,8 @@
 .rotate-once{
     animation:rotate-once 2s 1;  
 }
+
+
+.hidescrollbar::-webkit-scrollbar {
+    display: none;
+}

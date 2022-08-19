@@ -64,7 +64,7 @@ const Project = () => {
     <div className='mx-2 md:mx-32 h-[100vh]'>
        <div className='fadein'>
            <h1 className='text-center z-0 typing md:text-left text-xl md:text-4xl pt-7 text-white underline font-bold'>My Projects</h1>
-           <div className='grid grid-cols-2 lg:grid-cols-3 gap-1 my-4 overflow-scroll'>
+           <div className='grid grid-cols-2 lg:grid-cols-3 gap-1 my-4'>
                 {
                   projects.map((project,i)=>{
                     return <div onClick={()=>window.open(project.link)} className="cursor-pointer relative p-2 hover:bg-[rgb(0,0,0,0.2)] smoothify" key={i}>
