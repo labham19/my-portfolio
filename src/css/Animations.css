@@ -1,0 +1,68 @@
+@keyframes slabentry {
+    from {width: 0%;}
+    to {width: 33%;}
+}
+
+@keyframes sidebarentry {
+    from {opacity: 0}
+    to {opacity:1}
+}
+
+@keyframes fade-in { 
+    from {opacity: 0;}
+	to {opacity: 1;}
+}
+@keyframes typing {
+    from { width: 0;}
+    to { width: 100%;}
+}
+
+@keyframes rotaters {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+       transform: rotate(360deg);
+    }
+}
+@keyframes rotate-once {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+       transform: rotate(360deg);
+    }
+}
+
+.slab {
+    animation-name: slabentry;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+.sidebar {
+    animation-name: sidebarentry;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+}
+
+
+.fadein {
+    animation:fade-in 2s linear 1;
+}
+
+.typing{
+    overflow: hidden;
+    white-space: nowrap;
+    animation:typing 4s 1;   
+}
+
+.rotaters{
+    animation:rotaters 1s infinite;   
+}
+
+.rotate-once{
+    animation:rotate-once 2s 1;  
+}
