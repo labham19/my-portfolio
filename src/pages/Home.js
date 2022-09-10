@@ -2,6 +2,8 @@ import React from 'react';
 
 import '../css/Animations.css';
 
+import resume from '../resume.pdf';
+
 const Home = () => {
   const openLink = (link) =>{
     window.open(link);
@@ -19,7 +21,7 @@ const Home = () => {
                 <p className="text-xl text-white">Hi, my name is</p>
                 <p className="text-3xl md:text-4xl lg:text-7xl text-sky-500 font-bold typing">Labham Malik. </p>
                 <p className="text-xl border-l-2 text-slate-500 border-slate-300 px-3"> Full Stack Developer.</p>
-                <button onClick={()=>openLink('https://resume.io/r/eHXNPj731')} type="button" className="text-white button border bottom-1 border-blue-400 bg-[rgb(0,200,250,0.5)] w-48 hover:bg-[rgb(0,200,250,0.3)] p-1 lg:p-2 smoothify rounded-lg"> Resume</button>
+                <a href={resume} target="_blank" type="button" className="text-white text-center cursor-pointer button border bottom-1 border-blue-400 bg-[rgb(0,200,250,0.5)] w-48 hover:bg-[rgb(0,200,250,0.3)] p-1 lg:p-2 smoothify rounded-lg"> Resume</a>
             </div>
         </div>
         
