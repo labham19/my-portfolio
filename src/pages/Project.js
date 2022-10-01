@@ -40,12 +40,12 @@ const Project = () => {
       link:"https://living-books-ui.netlify.app/",
       tech:["reactjs","tailwind"]
      },
-     {
-      name:"True Friend Blood Bank",
-      video:"./videos/true_friend2.mp4",
-      link:"https://youtu.be/UcN-r57ksrY",
-      tech:["html","bootstrap","js","php"]
-     },
+    //  {
+    //   name:"True Friend Blood Bank",
+    //   video:"./videos/true_friend2.mp4",
+    //   link:"https://youtu.be/UcN-r57ksrY",
+    //   tech:["html","bootstrap","js","php"]
+    //  },
      {
       name:"Chat Monkey",
       video:"./videos/chat_mokey2.mp4",
